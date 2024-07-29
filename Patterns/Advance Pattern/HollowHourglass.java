@@ -1,14 +1,12 @@
 // Java Program to print pattern
 // Hollow Hourglass Pattern
-import java.util.*;
 
-public class GeeksForGeeks {
-  
+public class HollowHourglass {
+
     // Function to demonstrate pattern
-    public static void printPattern(int n)
-    {
+    public static void printPattern(int n) {
         int i, j;
-      
+
         // Printing the upper part
         for (i = 1; i <= n; i++) {
             // inner loop to print spaces.
@@ -17,7 +15,7 @@ public class GeeksForGeeks {
             }
             // inner loop to print value of j.
             for (j = i; j <= n; j++) {
-                if(j==i||j==n||i==1)
+                if (j == i || j == n || i == 1)
                     System.out.print("* ");
                 else
                     System.out.print("  ");
@@ -35,7 +33,7 @@ public class GeeksForGeeks {
             }
             // inner loop to print value of j.
             for (j = i; j <= n; j++) {
-                if(j==i||j==n||i==1)
+                if (j == i || j == n || i == 1)
                     System.out.print("* ");
                 else
                     System.out.print("  ");
@@ -46,8 +44,7 @@ public class GeeksForGeeks {
     }
 
     // Driver Function
-    public static void main(String args[])
-    {
+    public static void main(String args[]) {
         int n = 6;
         printPattern(n);
     }
