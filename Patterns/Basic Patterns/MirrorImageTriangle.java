@@ -1,11 +1,8 @@
 // Java Program to print pattern
 // Mirror Image of a triangle
-import java.util.*;
-
-public class GeeksForGeeks {
+public class MirrorImageTriangle {
     // Function to demonstrate pattern
-    public static void printPattern(int n)
-    {
+    public static void printPattern(int n) {
         int i, j;
         // Printing the upper part
         for (i = 1; i <= n; i++) {
@@ -38,8 +35,7 @@ public class GeeksForGeeks {
     }
 
     // Driver Function
-    public static void main(String args[])
-    {
+    public static void main(String args[]) {
         int n = 6;
         printPattern(n);
     }
