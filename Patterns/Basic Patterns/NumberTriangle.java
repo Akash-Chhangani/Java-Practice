@@ -1,11 +1,8 @@
-/ Java Program to print pattern
+// Java Program to print pattern
 // Number triangle pattern
-import java.util.*;
-
-public class GeeksForGeeks {
+public class NumberTriangle {
     // Function to demonstrate pattern
-    public static void printPattern(int n)
-    {
+    public static void printPattern(int n) {
         int i, j;
         // outer loop to handle number of rows
         for (i = 1; i <= n; i++) {
@@ -23,8 +20,7 @@ public class GeeksForGeeks {
     }
 
     // Driver Function
-    public static void main(String args[])
-    {
+    public static void main(String args[]) {
         int n = 6;
         printPattern(n);
     }
