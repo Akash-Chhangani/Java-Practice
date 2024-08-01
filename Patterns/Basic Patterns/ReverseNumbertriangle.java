@@ -1,12 +1,10 @@
+
 // Java Program to print pattern
 // Reverse number triangle
-import java.util.*;
-
-public class GeeksForGeeks {
+public class ReverseNumberTriangle {
 
     // Function to demonstrate pattern
-    public static void printPattern(int n)
-    {
+    public static void printPattern(int n) {
         int i, j;
         // outer loop to handle rows
         for (i = 1; i <= n; i++) {
@@ -27,8 +25,7 @@ public class GeeksForGeeks {
     }
 
     // Driver Function
-    public static void main(String args[])
-    {
+    public static void main(String args[]) {
         int n = 6;
         printPattern(n);
     }
