@@ -1,11 +1,8 @@
 // Java Program to print pattern
 // Reverse Left Half Pyramid 
-import java.util.*;
-
-public class GeeksForGeeks {
+public class ReverseLeftHalf {
     // Function to demonstrate pattern
-    public static void printPattern(int n)
-    {
+    public static void printPattern(int n) {
         int i, j;
 
         // calculating number of spaces
@@ -30,8 +27,7 @@ public class GeeksForGeeks {
     }
 
     // Driver Function
-    public static void main(String args[])
-    {
+    public static void main(String args[]) {
         int n = 6;
         printPattern(n);
     }
