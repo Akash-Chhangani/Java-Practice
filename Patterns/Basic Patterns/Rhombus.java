@@ -4,7 +4,6 @@ public class Rhombus {
     // Function to demonstrate pattern
     public static void printPattern(int n) {
         int i, j;
-        int num = 1;
         // outer loop to handle number of rows
         for (i = 1; i <= n; i++) {
             // inner loop to print spaces
