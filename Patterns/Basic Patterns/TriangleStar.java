@@ -1,11 +1,8 @@
 // Java Program to print
 // Triangular Pattern
-import java.util.*;
-
-public class GeeksForGeeks {
+public class TriangleStar {
     // Function to demonstrate pattern
-    public static void printPattern(int n)
-    {
+    public static void printPattern(int n) {
         int i, j;
         // outer loop to handle rows
         for (i = 0; i < n; i++) {
@@ -25,8 +22,7 @@ public class GeeksForGeeks {
     }
 
     // Driver Function
-    public static void main(String args[])
-    {
+    public static void main(String args[]) {
         int n = 6;
         printPattern(n);
     }
